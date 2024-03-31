@@ -1,0 +1,156 @@
+body {
+    background-color: rgb(178, 178, 178);
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    height: 187px;
+    background-color: #ffffff;
+
+}
+
+
+
+.header-1 {
+    background-color: #e8e8e8;
+    width: 100%;
+    height: 35px;
+
+
+    display: flex;
+    align-items: center;
+   
+
+    gap: 20px;
+
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    /* Add shadow */
+    
+
+
+
+
+
+
+
+
+    color: #6D6E70;
+    color: rgb(109, 110, 112);
+
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    font-kerning: auto;
+    font-optical-sizing: auto;
+    font-stretch: 100%;
+    font-variation-settings: normal;
+    font-feature-settings: normal;
+    text-transform: none;
+
+    line-height: 10px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+
+    text-decoration: none solid rgb(109, 110, 112);
+    text-indent: 0px;
+
+
+}
+
+
+
+.signin {
+    color: red;
+}
+
+.header-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 85px;
+    background-color: #f8f8f8;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    /* Add shadow */
+
+
+
+    color: #6d6e70;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    font-variant: normal;
+    font-kerning: auto;
+    font-optical-sizing: auto;
+    font-stretch: 100%;
+    font-variation-settings: normal;
+    font-feature-settings: normal;
+    text-transform: none;
+
+    line-height: 21px;
+    letter-spacing: normal;
+    word-spacing: 0px;
+
+    text-decoration: none solid rgb(0, 0, 0);
+    text-indent: 0px;
+
+
+
+}
+
+.red-box {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: rgb(203, 14, 14);
+    align-items: center;
+    height: 85px;
+    width: 183px;
+
+}
+
+.input {
+    width: 140px;
+    height: 19px;
+    margin-top: -50px;
+}
+
+.find {
+    margin-top: 3px;
+
+
+    color: #FFFFFF;
+    color: rgb(255, 255, 255);
+
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    font-kerning: auto;
+    font-optical-sizing: auto;
+    font-stretch: 100%;
+    font-variation-settings: normal;
+    font-feature-settings: normal;
+    text-transform: none;
+
+    line-height: 20px;
+    letter-spacing: normal;
+    word-spacing: 0px;
+
+    text-decoration: none solid rgb(255, 255, 255);
+    text-indent: 0px;
+
+}
+
+.red-cross-logo{
+    width: 214px;
+    height: 46px;
+    margin-left: 120px;
+    background-color: red;
+}
