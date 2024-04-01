@@ -463,11 +463,29 @@ body {
 
 
 .grey-box {
+    display: flex;
+    align-items: center;
+
     height: 75px;
     width: 100%;
-    background-color: black;
+    background-color: #f0f0f0;
 
 
+}
 
+.grey-box span{
+    padding: 42px;
+}
 
+.grey-box input{
+    width: 140px;
+    height: 25px;
+}
+
+.grey-box button{
+    width: 144px;
+    height: 32px;
+    background-color: #e11b22;
+    color: white;
+    margin-left: 10px;
 }
