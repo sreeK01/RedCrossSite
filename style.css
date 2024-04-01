@@ -283,14 +283,7 @@ text-decoration: none solid rgb(154, 151, 147);
     margin-left: 940px;
 }
 
-.body{
-    display: flex;
-    background-color: #ffffff;
-    height: 100px;
-    width: 1350px;
-    margin-left: 90px;
-    
-}
+
 
 
 
@@ -300,4 +293,17 @@ text-decoration: none solid rgb(154, 151, 147);
 }
 
 
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    height: 100px;
+    width: 1350px;
+    margin-left: 90px;
+    
+}
 
