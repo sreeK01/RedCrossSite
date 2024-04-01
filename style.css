@@ -12,11 +12,12 @@ body {
     height: 35px;
     width: 100%;
 
-    position: relative; 
+    position: relative;
 
 
 
-    z-index: 2; /* Add z-index */
+    z-index: 2;
+    /* Add z-index */
 
 
 
@@ -88,7 +89,7 @@ body {
 
     display: flex;
     justify-content: space-around;
-    
+
 
 
 
@@ -102,7 +103,8 @@ body {
 
 
     position: relative;
-    z-index: 1; /* Add this */
+    z-index: 1;
+    /* Add this */
 
 
 
@@ -199,7 +201,8 @@ body {
 
 
     position: relative;
-    z-index: 0; /* Add this */
+    z-index: 0;
+    /* Add this */
 
 
 
@@ -213,15 +216,15 @@ body {
     color: #000000;
     background-color: #000000;
     background-color: RGBA(0, 0, 0, 0);
-    
+
     font-family: Roboto, Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 12px;
-    
+
     line-height: 18px;
     vertical-align: middle;
     letter-spacing: normal;
     word-spacing: 0px;
-    
+
     font-weight: 400;
     font-style: normal;
     font-variant: normal;
@@ -233,51 +236,53 @@ body {
     text-transform: none;
     text-align: left;
     text-indent: 0px;
-    
+
 
 }
-.header-3 h2{
+
+.header-3 h2 {
     color: #000000;
-background-color: #000000;
-background-color: RGBA(0, 0, 0, 0);
+    background-color: #000000;
+    background-color: RGBA(0, 0, 0, 0);
 
 
 
-margin: 0;
+    margin: 0;
     padding: 0;
 
 
-font-family: Roboto, Arial, "Helvetica Neue", Helvetica, sans-serif;
-font-size: 16px;
+    font-family: Roboto, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
 
-line-height: 17.6px;
-letter-spacing: normal;
+    line-height: 17.6px;
+    letter-spacing: normal;
 
 
 
-font-weight: 700;
-font-style: normal;
-font-variant: normal;
-font-kerning: auto;
-font-optical-sizing: auto;
-font-stretch: 100%;
-font-variation-settings: normal;
-font-feature-settings: normal;
-text-decoration: none solid rgb(154, 151, 147);
+    font-weight: 700;
+    font-style: normal;
+    font-variant: normal;
+    font-kerning: auto;
+    font-optical-sizing: auto;
+    font-stretch: 100%;
+    font-variation-settings: normal;
+    font-feature-settings: normal;
+    text-decoration: none solid rgb(154, 151, 147);
 
 }
 
 
-.home{
+.home {
     margin-left: 112px;
 }
-.socialmedia-icon{
+
+.socialmedia-icon {
     width: 41px;
     height: 41px;
 
 }
 
-.socialmedia-icon-mail{
+.socialmedia-icon-mail {
     width: 41px;
     height: 41px;
     margin-left: 940px;
@@ -288,22 +293,181 @@ text-decoration: none solid rgb(154, 151, 147);
 
 
 
-.header-3, .body {
+.header-3,
+.body {
     box-sizing: border-box;
 }
 
 
 
-.body{
+.body {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     flex-direction: column;
     background-color: #ffffff;
-    height: 100px;
+    height: 100%;
     width: 1350px;
     margin-left: 90px;
-    
+
 }
 
+.main-heading {
+    /* Color */
+    color: #212529;
+    color: RGB(33, 37, 41);
+
+    /* Background Color */
+    background-color: #000000;
+    background-color: RGBA(0, 0, 0, 0);
+
+    /* Font */
+    font-family: Roboto, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 42px;
+
+    /* Spacing */
+    line-height: 50.4px;
+    letter-spacing: normal;
+    word-spacing: 0px;
+
+    padding-top: 40px;
+    
+
+    /* Decoration */
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+    text-indent: 0px;
+    text-transform: none;
+    text-decoration: none solid rgb(33, 37, 41);
+
+
+}
+
+.sub-text {
+    /* Color */
+    color: #6D6E70;
+    color: RGB(109, 110, 112);
+    background-color: #000000;
+    background-color: RGBA(0, 0, 0, 0);
+
+    /* Font */
+    font-family: Roboto, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 24px;
+
+    /* Spacing */
+    line-height: 28.8px;
+    letter-spacing: normal;
+    word-spacing: 0px;
+
+
+    /* Decoration */
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    font-kerning: auto;
+    font-optical-sizing: auto;
+    font-stretch: 100%;
+    font-variation-settings: normal;
+    font-feature-settings: normal;
+    text-transform: none;
+    text-decoration: none solid rgb(109, 110, 112);
+
+
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 526px;
+    height: 308px;
+    margin-left: auto;
+    margin-right: 137px;
+    margin-top: 53px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+
+
+
+}
+
+.video h1 {
+
+
+
+    /* Color */
+    color: #212529;
+    color: RGB(33, 37, 41);
+    background-color: #000000;
+    background-color: RGBA(0, 0, 0, 0);
+    /* Font */
+    font-family: Roboto, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 26px;
+    /* Spacing */
+    line-height: 28.6px;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    padding-left: 10px;
+
+    /* Decoration */
+    font-weight: 100;
+    font-style: normal;
+    font-variant: normal;
+    font-kerning: auto;
+    font-optical-sizing: auto;
+    font-stretch: 100%;
+    font-variation-settings: normal;
+    font-feature-settings: normal;
+    text-transform: none;
+    text-decoration: none solid rgb(33, 37, 41);
+    text-align: left;
+    text-indent: 0px;
+
+
+}
+
+.video p {
+    padding-left: 10px;
+
+
+    color: #0A0A09;
+    color: RGB(10, 10, 9);
+    background-color: #000000;
+    background-color: RGBA(0, 0, 0, 0);
+
+
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: normal;
+    word-spacing: 0px;
+
+    font-weight: 300;
+    font-style: normal;
+    font-variant: normal;
+    font-kerning: auto;
+    font-optical-sizing: auto;
+    font-stretch: 100%;
+    font-variation-settings: normal;
+    font-feature-settings: normal;
+    text-transform: none;
+    text-decoration: none solid rgb(10, 10, 9);
+    text-align: left;
+    text-indent: 0px;
+
+
+
+
+}
+
+
+.grey-box {
+    height: 75px;
+    width: 100%;
+    background-color: black;
+
+
+
+
+}
