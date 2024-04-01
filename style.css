@@ -12,8 +12,10 @@ body {
     height: 35px;
     width: 100%;
 
+    position: relative; 
 
-    position: relative;
+
+
     z-index: 2; /* Add z-index */
 
 
@@ -276,7 +278,9 @@ text-decoration: none solid rgb(154, 151, 147);
 
 .body{
     background-color: #ffffff;
-    height: 500px;
+    height: 100%;
     width: 1350px;
     margin-left: 90px;
 }
+
+
