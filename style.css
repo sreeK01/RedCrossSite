@@ -792,3 +792,77 @@ body {
    
     
 }
+
+/* ##################### */
+
+
+.box-2 img{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-color: red;
+    margin-left: 25px;
+    margin-top: 13px;
+    
+}
+
+
+.title{
+    width: 100%;
+    height: 60px;
+    background-color:#212529 ;
+    display: flex;
+
+}
+
+.title h2{
+    margin-left: 13px;
+}
+
+
+.box-2 button{
+    width: 194px;
+    height: 33px;
+    background-color: rgb(171, 42, 42);
+    color: white;
+
+    margin-top: 40px;
+   
+    
+}
+/* ####################### */
+
+.box-3 img{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-color: red;
+    margin-left: 25px;
+    margin-top: 13px;
+    
+}
+
+
+.title{
+    width: 100%;
+    height: 60px;
+    background-color:#212529 ;
+    display: flex;
+
+}
+
+.title h2{
+    margin-left: 13px;
+}
+
+
+.box-3 button{
+    width: 194px;
+    height: 33px;
+    background-color: rgb(171, 42, 42);
+    color: white;
+
+    margin-top: 40px;
+   
+    
+}
