@@ -909,4 +909,65 @@ body {
 
 }
 
+.whitespace{
+    color: white;
+}
 
+
+/* FOOTER */
+
+
+.footer{
+    display: flex;
+    background-color: #e8e8e8;
+    width: 100%;
+    height: 55px;
+}
+
+.footer-text-div{
+
+    margin-left: 140px;
+    padding-top: 10px;
+
+
+    /* Color */
+color: #212529; /* Hexadecimal color */
+color: rgb(33, 37, 41); /* RGB color */
+background-color: #000000; /* Hexadecimal background color */
+background-color: rgba(0, 0, 0, 0); /* RGBA background color */
+
+/* Font */
+font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif; /* Font stack */
+font-size: 12px; /* Font size */
+font-weight: 400; /* Font weight */
+font-style: normal; /* Font style */
+line-height: 18px; /* Line height */
+
+/* Spacing */
+line-height: 18px; /* Line height */
+letter-spacing: normal; /* Letter spacing */
+word-spacing: 0px; /* Word spacing */
+
+/* Decoration */
+font-weight: 400; /* Font weight */
+font-style: normal; /* Font style */
+font-variant: normal; /* Font variant */
+font-kerning: auto; /* Font kerning */
+font-optical-sizing: auto; /* Font optical sizing */
+font-stretch: 100%; /* Font stretch */
+font-variation-settings: normal; /* Font variation settings */
+font-feature-settings: normal; /* Font feature settings */
+text-transform: none; /* Text transform */
+text-decoration: none solid rgb(33, 37, 41); /* Text decoration */
+text-indent: 0px; /* Text indent */
+
+}
+
+.footer-text-div span{
+    margin: 2px;
+}
+
+.footer-socialmedia-icons{
+    background-color: rgb(149, 149, 185);
+    margin-left: 50px;
+}
