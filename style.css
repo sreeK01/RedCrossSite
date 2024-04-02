@@ -521,6 +521,12 @@ body {
 }
 
 .list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+
     color: #0A0A09;
     color: RGB(10, 10, 9);
     background-color: #000000;
@@ -549,5 +555,132 @@ body {
     margin-left: 110px;
     margin-right: 149px;
 
+
+
     
+}
+
+.list li {
+    margin-bottom: 23px; /* Adjust the value as needed */
+}
+
+.main-heading-3{
+     /* Color */
+     /* color: #212529;
+     color: RGB(33, 37, 41); */
+ 
+     /* Background Color */
+     background-color: #000000;
+     background-color: RGBA(0, 0, 0, 0);
+ 
+     /* Font */
+     font-family: Roboto, Arial, "Helvetica Neue", Helvetica, sans-serif;
+     font-size: 25px;
+ 
+     /* Spacing */
+     line-height: 64.8px;
+     letter-spacing: normal;
+     word-spacing: 0px;
+   
+ 
+     /* Decoration */
+     font-weight: 900;
+     font-style: normal;
+     text-indent: 0px;
+     text-transform: none;
+     text-decoration: none solid rgb(33, 37, 41);
+}
+
+.main-heading-3 p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+
+    color: #0A0A09;
+    color: RGB(10, 10, 9);
+    background-color: #000000;
+    background-color: RGBA(0, 0, 0, 0);
+
+
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: normal;
+    word-spacing: 0px;
+
+    font-weight: 300;
+    font-style: normal;
+    font-variant: normal;
+    font-kerning: auto;
+    font-optical-sizing: auto;
+    font-stretch: 100%;
+    font-variation-settings: normal;
+    font-feature-settings: normal;
+    text-transform: none;
+    text-decoration: none solid rgb(10, 10, 9);
+    text-align: left;
+    text-indent: 0px;
+
+    margin-left: 135px;
+    margin-right: 149px;
+
+
+
+    
+}
+
+.list-2{
+
+    
+
+    color: #0A0A09;
+    color: RGB(10, 10, 9);
+    background-color: #000000;
+    background-color: RGBA(0, 0, 0, 0);
+
+
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: normal;
+    word-spacing: 0px;
+
+    font-weight: 300;
+    font-style: normal;
+    font-variant: normal;
+    font-kerning: auto;
+    font-optical-sizing: auto;
+    font-stretch: 100%;
+    font-variation-settings: normal;
+    font-feature-settings: normal;
+    text-transform: none;
+    text-decoration: none solid rgb(10, 10, 9);
+    text-align: left;
+    text-indent: 0px;
+
+    margin-left: 110px;
+    margin-right: 149px;
+
+
+
+
+    
+}
+
+.list-2 li{
+    
+    margin-bottom: 20px;
+
+}
+
+.view{
+    
+    
+
+    color: blue ;
+
+   
+
 }
