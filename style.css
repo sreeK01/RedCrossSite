@@ -72,6 +72,9 @@ body {
 
 .header-1 .glass {
     margin-left: 895px;
+    transform: scaleX(-1);
+    /* Flip horizontally */
+
 }
 
 .header-1 .dot {
@@ -137,6 +140,10 @@ body {
 
 }
 
+.donate-nav {
+    margin-left: -30px;
+}
+
 
 .red-box {
     display: flex;
@@ -147,23 +154,44 @@ body {
     height: 85px;
     width: 183px;
 
+
+
+
 }
+
+.input-text-div {
+    position: relative;
+}
+
+.input-text-div button {
+    position: absolute;
+    top: -1px;
+    right: 0;
+    height: 100%;
+    padding: 3px 7px;
+    outline: none;
+    border: none;
+    background-color: #007caf;
+    border-radius: 3px;
+
+}
+
 
 .input {
     width: 140px;
-    height: 19px;
-    margin-top: -50px;
+    height: 24px;
     outline: none;
     outline-style: none;
     outline-color: none;
+    border: none;
+    border-radius: 3px;
+
 }
 
 .find {
-    margin-top: 3px;
 
 
     color: #FFFFFF;
-    color: rgb(255, 255, 255);
 
     font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 17px;
@@ -187,8 +215,14 @@ body {
 }
 
 .red-cross-logo {
+
+    border: 1px solid rgb(230, 230, 230);
     width: 214px;
-    height: 46px;
+    height: 50px;
+    padding: 10px;
+    border-top: none;
+    border-bottom: none;
+
 }
 
 .header-3 {
@@ -332,7 +366,7 @@ body {
     line-height: 64.8px;
     letter-spacing: normal;
     word-spacing: 0px;
-            /* margin: 0px 0px 5px;
+    /* margin: 0px 0px 5px;
             padding: 0px; */
 
     /* Decoration */
@@ -397,8 +431,7 @@ body {
 
 
     /* Color */
-    color: #212529;
-    color: RGB(33, 37, 41);
+    color: #363b40;
     background-color: #000000;
     background-color: RGBA(0, 0, 0, 0);
     /* Font */
@@ -431,8 +464,7 @@ body {
     padding-left: 10px;
 
 
-    color: #0A0A09;
-    color: RGB(10, 10, 9);
+    color: #63635f;
     background-color: #000000;
     background-color: RGBA(0, 0, 0, 0);
 
@@ -455,6 +487,8 @@ body {
     text-decoration: none solid rgb(10, 10, 9);
     text-align: left;
     text-indent: 0px;
+
+
 
 
 
@@ -475,6 +509,30 @@ body {
 
 .grey-box span {
     padding: 42px;
+
+
+    color: #2d2d2d;
+    background-color: #000000;
+    background-color: RGBA(0, 0, 0, 0);
+
+
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: normal;
+    word-spacing: 0px;
+
+    font-style: normal;
+    font-variant: normal;
+    font-kerning: auto;
+    font-optical-sizing: auto;
+    font-stretch: 100%;
+    font-variation-settings: normal;
+    font-feature-settings: normal;
+    text-transform: none;
+    text-decoration: none solid rgb(10, 10, 9);
+    text-indent: 0px;
+
 }
 
 .grey-box input {
@@ -488,14 +546,16 @@ body {
     background-color: #e11b22;
     color: white;
     margin-left: 10px;
+    border: none;
+    border-radius: 3px;
 }
 
 .main-heading-2 {
 
 
     /* Color */
-    color: #212529;
-    color: RGB(33, 37, 41);
+    /* color: #212529;
+     color: RGB(33, 37, 41); */
 
     /* Background Color */
     background-color: #000000;
@@ -509,7 +569,7 @@ body {
     line-height: 64.8px;
     letter-spacing: normal;
     word-spacing: 0px;
-  
+
 
     /* Decoration */
     font-weight: 900;
@@ -520,14 +580,14 @@ body {
 
 }
 
-.list{
+.list {
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    
 
-    color: #0A0A09;
+
+    color: #34342f;
     color: RGB(10, 10, 9);
     background-color: #000000;
     background-color: RGBA(0, 0, 0, 0);
@@ -537,18 +597,10 @@ body {
     font-size: 16px;
     line-height: 22px;
     letter-spacing: normal;
-    word-spacing: 0px;
 
-    font-weight: 300;
-    font-style: normal;
-    font-variant: normal;
-    font-kerning: auto;
+    font-weight: 100;
     font-optical-sizing: auto;
     font-stretch: 100%;
-    font-variation-settings: normal;
-    font-feature-settings: normal;
-    text-transform: none;
-    text-decoration: none solid rgb(10, 10, 9);
     text-align: left;
     text-indent: 0px;
 
@@ -557,46 +609,47 @@ body {
 
 
 
-    
+
 }
 
 .list li {
-    margin-bottom: 23px; /* Adjust the value as needed */
+    margin-bottom: 23px;
+    /* Adjust the value as needed */
 }
 
-.main-heading-3{
-     /* Color */
-     /* color: #212529;
+.main-heading-3 {
+    /* Color */
+    /* color: #212529;
      color: RGB(33, 37, 41); */
- 
-     /* Background Color */
-     background-color: #000000;
-     background-color: RGBA(0, 0, 0, 0);
- 
-     /* Font */
-     font-family: Roboto, Arial, "Helvetica Neue", Helvetica, sans-serif;
-     font-size: 25px;
- 
-     /* Spacing */
-     line-height: 64.8px;
-     letter-spacing: normal;
-     word-spacing: 0px;
-   
- 
-     /* Decoration */
-     font-weight: 900;
-     font-style: normal;
-     text-indent: 0px;
-     text-transform: none;
-     text-decoration: none solid rgb(33, 37, 41);
+
+    /* Background Color */
+    background-color: #000000;
+    background-color: RGBA(0, 0, 0, 0);
+
+    /* Font */
+    font-family: Roboto, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 25px;
+
+    /* Spacing */
+    line-height: 64.8px;
+    letter-spacing: normal;
+    word-spacing: 0px;
+
+
+    /* Decoration */
+    font-weight: 900;
+    font-style: normal;
+    text-indent: 0px;
+    text-transform: none;
+    text-decoration: none solid rgb(33, 37, 41);
 }
 
-.main-heading-3 p{
+.main-heading-3 p {
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    
+
 
     color: #0A0A09;
     color: RGB(10, 10, 9);
@@ -628,12 +681,12 @@ body {
 
 
 
-    
+
 }
 
-.list-2{
+.list-2 {
 
-    
+
 
     color: #0A0A09;
     color: RGB(10, 10, 9);
@@ -666,24 +719,24 @@ body {
 
 
 
-    
+
 }
 
-.list-2 li{
-    
+.list-2 li {
+
     margin-bottom: 20px;
 
 }
 
-.view{
-    
-    
+.view {
 
 
-    
 
-    color:#007CAF;
- 
+
+
+
+    color: #007CAF;
+
 
 
     font-family: "Open Sans", sans-serif;
@@ -708,11 +761,11 @@ body {
     padding-right: 850px;
 
 
-   
+
 
 }
 
-.main-heading-4{
+.main-heading-4 {
     /* Color */
     /* color: #212529;
     color: RGB(33, 37, 41); */
@@ -729,7 +782,7 @@ body {
     line-height: 64.8px;
     letter-spacing: normal;
     word-spacing: 0px;
-  
+
 
     /* Decoration */
     font-weight: 900;
@@ -739,7 +792,7 @@ body {
     text-decoration: none solid rgb(33, 37, 41);
 }
 
-.bottom-boxes{
+.bottom-boxes {
     display: flex;
     color: white;
     margin-bottom: 28px;
@@ -749,129 +802,150 @@ body {
 
 .box-1,
 .box-2,
-.box-3{
-   
+.box-3 {
+
     width: 343px;
     height: 154px;
     background-color: #ffffff;
     margin: 12px;
-    box-shadow: 0 0 10px 2px rgba(63, 63, 63, 0.5); /* Apply a strong shadow */
+    box-shadow: 0 0 10px 2px rgba(63, 63, 63, 0.5);
+    /* Apply a strong shadow */
 
 
 
-    
+
 }
 
-.box-1 img{
+.box-1 img {
     width: 35px;
     height: 35px;
-    background-color: white;
-    border-color: red;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    border: solid 1px red;
     margin-left: 25px;
     margin-top: 13px;
-    
+
+
 }
 
 
-.title{
+.title {
     width: 100%;
     height: 60px;
-    background-color:#212529 ;
+    background-color: #212529;
     display: flex;
 
 }
 
-.title h2{
+.title h2 {
     margin-left: 13px;
 }
 
 
-.box-1 button{
+.box-1 button {
     width: 194px;
     height: 33px;
-    background-color: rgb(171, 42, 42);
+    background-color: #e11b22;
     color: white;
 
     margin-top: 40px;
-   
-    
+    border: none;
+    border-radius: 3px;
+
+
+
 }
 
 /* ##################### */
 
 
-.box-2 img{
+.box-2 img {
     width: 35px;
     height: 35px;
-    background-color: white;
-    border-color: red;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 0, 0);
+    border-radius: 100px;
+    border: solid 1px red;
     margin-left: 25px;
     margin-top: 13px;
-    
+
 }
 
 
-.title{
+.title {
     width: 100%;
     height: 60px;
-    background-color:#212529 ;
+    background-color: #212529;
     display: flex;
 
 }
 
-.title h2{
+.title h2 {
     margin-left: 13px;
 }
 
 
-.box-2 button{
-    width: 194px;
+.box-2 button {
+    width: 150px;
     height: 33px;
-    background-color: rgb(171, 42, 42);
+    background-color: #e11b22;
     color: white;
 
     margin-top: 40px;
-   
-    
+
+    border: none;
+    border-radius: 3px;
+
+
+
+
 }
+
 /* ####################### */
 
-.box-3 img{
+.box-3 img {
     width: 35px;
     height: 35px;
-    background-color: white;
-    border-color: red;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 0, 0);
+    border-radius: 100px;
+    border: solid 1px red;
     margin-left: 25px;
     margin-top: 13px;
-    
+
 }
 
 
-.title{
+.title {
     width: 100%;
     height: 60px;
-    background-color:#212529 ;
+    background-color: #212529;
     display: flex;
 
 }
 
-.title h2{
+.title h2 {
     margin-left: 13px;
 }
 
 
-.box-3 button{
+.box-3 button {
     width: 230px;
     height: 33px;
-    background-color: rgb(171, 42, 42);
+    background-color: #e11b22;
     color: white;
 
     margin-top: 40px;
-   
-    
+
+
+    border: none;
+    border-radius: 3px;
+
+
+
 }
 
-.disclaimers-background{
+.disclaimers-background {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -880,7 +954,7 @@ body {
     height: 92px;
 }
 
-.disclaimers-box{
+.disclaimers-box {
     display: flex;
     justify-content: start;
     background-color: white;
@@ -890,12 +964,12 @@ body {
 
 }
 
-.disclaimers-box h2{
+.disclaimers-box h2 {
     margin-left: 20px;
 
 }
 
-.plus-div{
+.plus-div {
 
     display: flex;
     justify-content: end;
@@ -905,14 +979,14 @@ body {
 
 }
 
-.plus{
+.plus {
     width: 20px;
     height: 20px;
 
 
 }
 
-.whitespace{
+.whitespace {
     color: white;
 }
 
@@ -920,71 +994,102 @@ body {
 /* FOOTER */
 
 
-.footer{
+.footer {
     display: flex;
     background-color: #e8e8e8;
     width: 100%;
     height: 55px;
 }
 
-.footer-text-div{
+.footer-text-div {
 
     margin-left: 140px;
     padding-top: 10px;
 
 
     /* Color */
-color: #212529; /* Hexadecimal color */
-color: rgb(33, 37, 41); /* RGB color */
-background-color: #000000; /* Hexadecimal background color */
-background-color: rgba(0, 0, 0, 0); /* RGBA background color */
+    color: #212529;
+    /* Hexadecimal color */
+    color: rgb(33, 37, 41);
+    /* RGB color */
+    background-color: #000000;
+    /* Hexadecimal background color */
+    background-color: rgba(0, 0, 0, 0);
+    /* RGBA background color */
 
-/* Font */
-font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif; /* Font stack */
-font-size: 12px; /* Font size */
-font-weight: 400; /* Font weight */
-font-style: normal; /* Font style */
-line-height: 18px; /* Line height */
+    /* Font */
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* Font stack */
+    font-size: 12px;
+    /* Font size */
+    font-weight: 400;
+    /* Font weight */
+    font-style: normal;
+    /* Font style */
+    line-height: 18px;
+    /* Line height */
 
-/* Spacing */
-line-height: 18px; /* Line height */
-letter-spacing: normal; /* Letter spacing */
-word-spacing: 0px; /* Word spacing */
+    /* Spacing */
+    line-height: 18px;
+    /* Line height */
+    letter-spacing: normal;
+    /* Letter spacing */
+    word-spacing: 0px;
+    /* Word spacing */
 
-/* Decoration */
-font-weight: 400; /* Font weight */
-font-style: normal; /* Font style */
-font-variant: normal; /* Font variant */
-font-kerning: auto; /* Font kerning */
-font-optical-sizing: auto; /* Font optical sizing */
-font-stretch: 100%; /* Font stretch */
-font-variation-settings: normal; /* Font variation settings */
-font-feature-settings: normal; /* Font feature settings */
-text-transform: none; /* Text transform */
-text-decoration: none solid rgb(33, 37, 41); /* Text decoration */
-text-indent: 0px; /* Text indent */
+    /* Decoration */
+    font-weight: 400;
+    /* Font weight */
+    font-style: normal;
+    /* Font style */
+    font-variant: normal;
+    /* Font variant */
+    font-kerning: auto;
+    /* Font kerning */
+    font-optical-sizing: auto;
+    /* Font optical sizing */
+    font-stretch: 100%;
+    /* Font stretch */
+    font-variation-settings: normal;
+    /* Font variation settings */
+    font-feature-settings: normal;
+    /* Font feature settings */
+    text-transform: none;
+    /* Text transform */
+    text-decoration: none solid rgb(33, 37, 41);
+    /* Text decoration */
+    text-indent: 0px;
+    /* Text indent */
 
 }
 
-.footer-text-div span{
+.footer-text-div span {
     margin: 2px;
 }
 
-.footer-socialmedia-icons{
+.footer-socialmedia-icons {
     display: flex;
     align-items: center;
     margin-left: 215px;
 
 }
 
-.footer-socialmedia-icons img{
+.footer-socialmedia-icons img {
     width: 20px;
     height: 20px;
     margin: 10px;
 }
 
-.border{
+
+.border-logo {
+    width: 1px;
+    height: 85px;
+    background-color: rgb(196, 196, 196);
+}
+
+
+.border {
     width: 1px;
     height: 55px;
-    background-color: rgb(164, 164, 164);
+    background-color: rgb(192, 192, 192);
 }
