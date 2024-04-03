@@ -161,6 +161,7 @@ body {
 
 .input-text-div {
     position: relative;
+    margin-top: -70px;
 }
 
 .input-text-div button {
@@ -186,31 +187,43 @@ body {
     border: none;
     border-radius: 3px;
 
+
+
 }
 
 .find {
 
 
-    color: #FFFFFF;
+    /* Color */
+color: #FFFFFF;
 
-    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 17px;
-    font-weight: 400;
-    font-style: normal;
-    font-variant: normal;
-    font-kerning: auto;
-    font-optical-sizing: auto;
-    font-stretch: 100%;
-    font-variation-settings: normal;
-    font-feature-settings: normal;
-    text-transform: none;
+margin-bottom: 50px;
 
-    line-height: 20px;
-    letter-spacing: normal;
-    word-spacing: 0px;
 
-    text-decoration: none solid rgb(255, 255, 255);
-    text-indent: 0px;
+/* Font */
+font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 14px;
+
+/* Spacing */
+line-height: 20px;
+vertical-align: baseline;
+letter-spacing: normal;
+word-spacing: 0px;
+
+
+/* Decoration */
+font-weight: 400;
+font-style: normal;
+font-variant: normal;
+font-kerning: auto;
+font-optical-sizing: auto;
+font-stretch: 100%;
+font-variation-settings: normal;
+font-feature-settings: normal;
+text-transform: none;
+text-decoration: none solid rgb(255, 255, 255);
+text-indent: 0px;
+
 
 }
 
@@ -349,12 +362,15 @@ body {
 
 .main-heading {
 
-    background-color: blue;
 
 
 
     /* Color */
     color: #212529;
+
+
+    margin-bottom: -35px; 
+
 
 
 
@@ -378,6 +394,11 @@ body {
 
 
 }
+
+
+
+
+
 
 .sub-text {
     /* Color */
@@ -1095,3 +1116,8 @@ body {
     height: 55px;
     background-color: rgb(192, 192, 192);
 }
+
+
+
+
+
