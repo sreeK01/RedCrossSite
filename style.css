@@ -430,6 +430,7 @@ text-indent: 0px;
     text-decoration: none solid rgb(109, 110, 112);
 
 
+
 }
 
 .video {
@@ -830,7 +831,7 @@ text-indent: 0px;
     height: 154px;
     background-color: #ffffff;
     margin: 12px;
-    box-shadow: 0 0 10px 2px rgba(63, 63, 63, 0.5);
+    box-shadow: 0 0 3px .5px rgba(63, 63, 63, 0.5);
 
 
 
