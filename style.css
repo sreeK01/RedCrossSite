@@ -199,12 +199,12 @@ body {
     /* Color */
 color: #FFFFFF;
 
-margin-bottom: 50px;
+margin-bottom: 70px;
 
 
-/* Font */
-font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 14px;
+/* Font , delete below */
+font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+font-size: 16px;
 
 /* Spacing */
 line-height: 20px;
